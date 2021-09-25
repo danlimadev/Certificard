@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Aula 10 Imersão Dev - Certificard</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="top-nav"><a href="https://github.com/danlimadev"><img class="social" src="https://github.com/danlimadev.png"></a>
+    <a href="https://alura.com.br"><img class="social" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZri-PqHOk6pCEDTXFUJVL88X71Cfoo5afBPIAJGoIYKefJawbMsZUrz-lrsOJwHTa5_0&usqp=CAU"></a>
+    <a href="https://codepen.io/Codehot"><img class="social" src="data:image/png;base64,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"></a>
+  </div>
+  <!-- Parte de cima, redes sociais -->
+
+  <div class="container">
+    <header class="cabecalho">
+      <div class="perfil">
+        <img class="perfil-foto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZri-PqHOk6pCEDTXFUJVL88X71Cfoo5afBPIAJGoIYKefJawbMsZUrz-lrsOJwHTa5_0&usqp=CAU" />
+        <div class="titulo">
+          <h1>Daniel Lima</h1>
+          <h3>Aluno na Alura #imersaodev</h3>
+        </div>
+      </div>
+      <div class="tema">
+        <button onclick="mudaTema()">Alterar Tema</button>
+      </div>
+    </header>
+
+    <main class="projetos">
+      <ul class="projetos-titulo">Projetos<ul>
+          <li class="projetos-item">
+            <p> 1ª aula: Calculadora de Média 📚</p>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="yLXPKGQ" data-user="Codehot" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Codehot/pen/yLXPKGQ">
+                  Calculadora de Média - 1ª aula Imersão Dev</a> by Thaiz (<a href="https://codepen.io/Codehot">@Codehot</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <p> 2ª aula: Conversor de moedas 💰</p>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="PojOeme" data-user="Codehot" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Codehot/pen/PojOeme">
+                  Conversor de Moedas - ID3 - 2ª aula Imersão Dev</a> by Thaiz (<a href="https://codepen.io/Codehot">@Codehot</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          </li>
+          <li class="projetos-item">
+            <p> 3ª aula: Mentalista 🧠</p>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="MWorzor" data-user="Codehot" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Codehot/pen/MWorzor">
+                  Mentalista - ID3 - 3ª aula Imersão Dev</a> by Thaiz (<a href="https://codepen.io/Codehot">@Codehot</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <p> 4ª aula: AluraFlix 🎥 - Parte 1</p>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="OJgQpBv" data-user="Codehot" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Codehot/pen/OJgQpBv">
+                  AluraFlix v1- ID3 - 4ª aula Imersão Dev</a> by Thaiz (<a href="https://codepen.io/Codehot">@Codehot</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <p> 5ª aula: AluraFlix 🎥 - Parte 2</p>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="WNOMXPO" data-user="Codehot" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Codehot/pen/WNOMXPO">
+                  Aluraflix - Aula 5 Imersão Dev</a> by Thaiz (<a href="https://codepen.io/Codehot">@Codehot</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <p> 6ª aula: Tabela de Classificação 📃</p>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="yLXjJZb" data-user="Codehot" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Codehot/pen/yLXjJZb">
+                  Tabela de classificação - 6ª aula Imersão Dev</a> by Thaiz (<a href="https://codepen.io/Codehot">@Codehot</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <p> 7ª aula: Super Trunfo - Lógica do Jogo 🃏</p>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="JjJBNxd" data-user="Codehot" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Codehot/pen/JjJBNxd">
+                  Super Trunfo - 7ª aula Imersão Dev</a> by Thaiz (<a href="https://codepen.io/Codehot">@Codehot</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <p> 8ª aula: Super Trunfo - Cartas do Jogo 🃏</p>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="yLXxbzv" data-user="Codehot" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/Codehot/pen/yLXxbzv">
+                  Super Trunfo - 8ª aula Imersão Dev</a> by Thaiz (<a href="https://codepen.io/Codehot">@Codehot</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          </li>
+    </main>
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
